@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus datos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ingresa tus datos</h1>
+        <p>Esto en necesario para poder realizar tu pedido correctamente.</p>
+        <a href="Index.html"><button>Volver al inicio</button></a>
+    </header>
+
+    <section>
+        <article>
+            <form>
+                <ul>
+                    <li>
+                        <h3>Datos personales</h3>
+                    </li>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li>
+                        <label for="text">Direccion:</label>
+                        <input type="text" id="direccion" name="user_direction">
+                    </li>
+                    <li>
+                        <label for="fecha">fecha de entrega:</label>
+                        <input type="date" id="Entrega" name="entregaPastel" value="0000-00-00" min="2022-03-01"
+                            max="2025-12-31">
+                    </li>
+            </form>
+        </article>
+        <article>
+            <form>
+                <ul>
+                    <li>
+                        <h3>Metodo de Pago</h3>
+                        <p>Solo llena el cuadro de la opcion que escogiste</p>
+                    </li>
+                    <select name="Pago" id="MetPago">
+                        <option>Tarjeta credito/debito</option>
+                        <option>Deposito en tienda/super mercado</option>
+                    </select>
+                    <li>
+                        <label for="number" id="tarjeta">Numero de tarjeta</label>
+                        <input type="number" id="pagoTarjeta" name="user_card">
+                    </li>
+                    <li>
+                        <label for="number" id="Deposito">Referencia deposito</label>
+                        <input type="number" id="pagoTienda" name="user_deposito">
+                    </li>
+                </ul>
+            </form>
+            </ul>
+        </article>
+        <a href="Confirmacion.html"><button>Continuar</button></a>
+        <a href="Index.html"><button>Volver al inicio</button></a>
+    </section>
+    <footer>
+        <a href="Politica.html"><h3>Politica de privacidad</h3></a>
+    </footer>
+</body>
+
+</html>
